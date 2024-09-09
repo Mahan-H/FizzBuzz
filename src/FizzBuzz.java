@@ -4,25 +4,16 @@
 class FizzBuzz {
 
     public static void main(String[] args) {
-//        int i = 1;
-//        while (i < 100){
-//            boolean div3 = i % 3 == 0;
-//            boolean div5 = i % 5 == 0;
-//            if (div3 && div5)
-//                System.out.println("Fizz Buzz");
-//            else if (div3)
-//                System.out.println("Fizz");
-//            else if (div5)
-//                System.out.println("Buzz");
-//            else
-//                System.out.println(i);
-//            i++;
-//        }
-        for (int i = 1; i < 100; i++) {
-
-            // Find out which numbers divide i.
+        int i = 1;
+        while (i < 100){
             doFizzBuzz(i);
+            i++;
         }
+//        for (int i = 1; i < 100; i++) {
+//
+//            // Find out which numbers divide i.
+//            doFizzBuzz(i);
+//        }
     }
 
     public static void doFizzBuzz(int i) {
